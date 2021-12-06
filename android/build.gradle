@@ -30,6 +30,10 @@ allprojects {
             // Android JSC is installed from npm
             url("$rootDir/../node_modules/jsc-android/dist")
         }
+        maven {
+            //Anyline
+            url 'https://anylinesdk.blob.core.windows.net/maven/'
+        }
 
         google()
         jcenter()
